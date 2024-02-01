@@ -22,7 +22,7 @@ Welcome to the Trivia Game WebApp! This Single Page Application (SPA) is a simpl
 - JavaScript
 - jQuery
 - RequireJS
-- **Fetch API**: Used for asynchronous data fetching
+- Fetch API: Used for asynchronous data fetching
 
 ## Data Fetching
 
