@@ -1,0 +1,130 @@
+.container {
+    margin: 10px;
+    text-align: center; 
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+#image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trivia-image {
+    max-width: 50%; 
+    margin-bottom: 40px;
+}
+
+#name {
+    color: #2a39c1;
+    font-size: 50px;
+}
+
+#start {
+    padding: 10px;
+}
+
+#category {
+    color: #2a39c1;
+    font-size: 35px;
+    margin-top: -8px;
+  }
+
+#correct-answer1 {
+    color: #2a39c1;
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+
+.end-answers {
+    color: #2a39c1;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+  
+#question {
+    background-color: #2a39c1;
+    color: #fff;
+    padding: 20px;
+    border: 2px solid #2a39c1;
+    border-radius: 30px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 35px;
+  }
+
+#gameover {
+    color: #2a39c1;
+    font-size: 25px;
+    margin-top: -8px;
+}
+  
+
+.button-container,
+.restart-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#restart,
+#start,
+#btn1,
+#btn2,
+#btn3,
+#btn4 {
+    border: 2px solid #2a39c1;
+    display: block; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+    padding: 10px 20px;
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #2a39c1;
+    background-color: #fff;
+    border-radius: 20px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#restart:hover,
+#start:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover {
+    background-color: #2a39c1;
+    color: #fff;
+}
+
+/* Active/focus effect */
+#restart:hover:active,
+#start:hover:active,
+#btn1:hover:active,
+#btn2:hover:active,
+#btn3:hover:active,
+#btn4:hover:active,
+#restart:focus,
+#start:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus,
+#btn4:focus {
+    outline: none;
+    background-color: #2980b9;
+    color: #fff;
+}
+
