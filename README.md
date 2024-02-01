@@ -11,9 +11,9 @@ Welcome to the Trivia Game WebApp! This Single Page Application (SPA) is a simpl
 
 ## Screenshots
 
-![Trivia Game](img/homepage.png)
-![Trivia Game](img/question.png)
-![Trivia Game](img/gameover.png)
+![Trivia Game](img/homepage.PNG)
+![Trivia Game](img/question.PNG)
+![Trivia Game](img/gameover.PNG)
 
 ## Technologies Used
 
